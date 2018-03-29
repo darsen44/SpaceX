@@ -1,9 +1,13 @@
 import rocket.*;
-import Planets.*;
+import planets.*;
 
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println(Cabins.BANDERA.name());
+        SpaceX spaceX = new SpaceX();
+        spaceX.startSpaceX();
+
+
+
     }
 }
